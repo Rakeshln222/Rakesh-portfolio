@@ -1,0 +1,82 @@
+@media screen and (max-width:990px){
+    .menu-items{
+        display: none;
+    }
+    .toggler-btn{
+        display: block;
+    }
+
+    .menu-item.active-menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        height: 100%;
+        width: 30%;
+        align-items: center;
+        padding-top: 3rem;
+        justify-content: space-evenly;
+        animation: leftSlide 0.5s linear;
+        transition: all 2s;
+    }
+    #home{
+        padding-top: 3rem;
+    }
+    #home .container .image{
+        width: 0%;
+    }
+    #about, #projects ,#resume, #contact{
+        /* width: 100%; */
+        height: 100%;
+    }
+    #about .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #about .about-img img{
+        width: 100%;
+    }
+    #about .about-content{
+        width: 100%;
+    }
+    #about .about-content .card:nth-child(2){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #resume .container{
+        height: 100%;
+    }
+    .resume-content .skills-list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #projects .project-cards{
+        flex-direction: column;
+
+    }
+    #contact .contact-contact{
+        flex-direction: column;
+    }
+}
+
+@keyframes leftSlide{
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
