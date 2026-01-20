@@ -83,9 +83,6 @@ You can view the live site here: **[https://rakeshln222.github.io/Rakesh-portfol
 
 This is my personal portfolio, so contributions are not expected. However, if you have any suggestions for improvements or spot a bug, feel free to fork the repo and create a Pull Request. I'm always open to learning!
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Connect with Me
 
@@ -95,6 +92,3 @@ Let's talk tech and opportunities!
 *   **Email:** rakeshln0000@gmail.com
 *   
 
----
-
-⭐ **Star this repo if you found it helpful or like my work!**
